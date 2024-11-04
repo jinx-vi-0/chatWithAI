@@ -1,46 +1,7 @@
-# Chat Gemini
+# Chat With AI
 
-## 🧰 Usage
+A chat application built with Appwrite and the Google Gemini API.
 
-### GET /ping
+![Chat Gemini Demo](https://github.com/ebenezerdon/static-assets/blob/main/chat-gemini-demo.gif?raw=true)
 
-- Returns a "Pong" message.
-
-**Response**
-
-Sample `200` Response:
-
-```text
-Pong
-```
-
-### GET, POST, PUT, PATCH, DELETE /
-
-- Returns a "Learn More" JSON response.
-
-**Response**
-
-Sample `200` Response:
-
-```json
-{
-  "motto": "Build like a team of hundreds_",
-  "learn": "https://appwrite.io/docs",
-  "connect": "https://appwrite.io/discord",
-  "getInspired": "https://builtwith.appwrite.io"
-}
-```
-
-## ⚙️ Configuration
-
-| Setting           | Value         |
-| ----------------- | ------------- |
-| Runtime           | Node (18.0)   |
-| Entrypoint        | `src/main.js` |
-| Build Commands    | `npm install` |
-| Permissions       | `any`         |
-| Timeout (Seconds) | 15            |
-
-## 🔒 Environment Variables
-
-No environment variables required.
+To learn how to build this, check out the tutorial on the [Appwrite blog](https://appwrite.io/blog/post/build-a-chat-app-with-appwrite-and-gemini).
