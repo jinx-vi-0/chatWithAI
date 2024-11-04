@@ -1,0 +1,24 @@
+{
+    "projectId": "alsfi9348usl893",
+    "functions": [
+        {
+            "$id": "chat-gemini-id",
+            "name": "Chat Gemini",
+            "runtime": "node-18.0",
+            "execute": [
+                "any"
+            ],
+            "events": [],
+            "scopes": [
+                "users.read"
+            ],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "path": "functions/Chat Gemini"
+        }
+    ]
+}
